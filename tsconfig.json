@@ -1,0 +1,19 @@
+{
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "es2022",
+    "module": "NodeNext", 
+    "sourceMap": true,
+    "outDir": "./dist",
+               
+    "esModuleInterop": true ,
+    // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    "strict": true ,
+    "noImplicitAny": false /* Enable error reporting for expressions and declarations with an implied `any` type.. */,
+    
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  }
+}

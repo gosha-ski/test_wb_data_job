@@ -1,0 +1,33 @@
+{
+  "name": "wbjob",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "ts-node ./src/server.ts",
+    "cron": "ts-node ./src/cron.ts",
+    "db-connector": "ts-node ./src/dbConnection.ts",
+    "tests": "ts-node ./src/test.ts",
+    "index": "ts-node ./src/index.ts",
+    "sheet":"ts-node ./src/readSheets.ts",
+    "fromPGtoGoogle": "ts-node ./src/fromPGtoGoogle.ts",
+    "start": "ts-node ./src/start.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "axios": "^1.7.9",
+    "fastify": "^5.2.1",
+    "googleapis": "^105.0.0",
+    "knex": "^3.1.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1",
+    "prettier": "^3.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
